@@ -1,8 +1,10 @@
+/*版心居中*/
 .wrapper {
     width: 1240px;
     margin: 0 auto;
 }
 
+/*快捷导航*/
 .shortcut {
     height: 52px;
     background-color: #333333;
@@ -38,4 +40,100 @@
     border-right: none;
 }
 
+/*头部区域*/
+.header {
+    margin: 21px auto;
+    height: 88px;
+}
 
+.header .logo {
+    float: left;
+    display: inline-block;
+    margin: 0 40px 0 25px;
+    width: 200px;
+    height: 88px;
+    background-image: url('../images/logo.png');
+    font-size: 0;
+}
+
+.header ul {
+    float: left;
+    height: 88px;
+}
+
+.header ul li {
+    float: left;
+    margin-right: 48px;
+    line-height: 88px;
+}
+
+.header li a {
+    font-size: 16px;
+    color: #333333;
+}
+
+.header li a:hover {
+    color: #27ba9b;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #27ba9b;
+
+}
+
+.header li:last-child {
+    margin-right: 82px;
+}
+
+.header .search {
+    float: left;
+    margin: 29px 15px 29px 0;
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.header .search input {
+    float: left;
+    height: 14px;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 31px;
+}
+
+.header .search input::placeholder {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.header .search .search_img {
+    position:absolute;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url('../images/sprites.png');
+    background-position: -80px -70px;
+}
+
+.header .shopping_car {
+    float: left;
+    display: inline-block;
+    margin: 32px 0;
+    width: 23px;
+    height: 23px;
+    background-image: url('../images/sprites.png');
+    background-position: -120px -70px;
+}
+
+.header .shopping_car .num {
+    position: relative;
+    left: 15px;
+    top: -11px;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+}
