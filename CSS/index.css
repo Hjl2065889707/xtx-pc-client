@@ -145,6 +145,7 @@
 }
 
 .goods .bd li {
+    position: relative;
     float: left;
     margin-right: 8px;
     margin-top: 37px;
@@ -186,3 +187,134 @@
     font-size: 14px;
 }
 
+.goods .bd li .new-goods {
+    position: absolute;
+    top: 18px;
+    left: 17px;
+    padding-top: 7px;
+    width: 28px;
+    height: 51px;
+    line-height: 18px;
+    border: 2px solid #27ba9b;
+    border-radius: 7%;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #27ba9b;
+}
+
+.foods {
+    height: 673px;
+}
+
+.foods .hd {
+    height: 28px;
+}
+
+.foods .hd h2 {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    font-family: PingFangSC-Regular;
+    font-size: 29px;
+}
+
+.foods .hd .more {
+    float: right;
+    margin-left: 65px;
+    margin-top: 9px;
+    height: 16px;
+    line-height: 16px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #999999;
+}
+
+.foods .hd .more::after {
+    float: right;
+    display: inline-block;
+    content: '';
+    margin-top: 2px;
+    margin-left: 15px;
+    width: 7px;
+    height: 13px;
+    background-image: url('../images/sprites.png');
+    background-position: 0 -110px;
+}
+
+.foods .hd li {
+    float: right;
+    margin-top: 6px;
+    margin-left: 6px;
+    height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+}
+
+.foods .hd li a {
+    padding: 2px 7px;
+    height: 20px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.foods .hd li a:hover {
+    background-color: #27ba9b;
+    color: #fefbfc;
+}
+
+
+.foods .bd {
+    margin-top: 34px;
+    height: 610px;
+}
+
+.foods .bd .left {
+    float: left;
+    width: 240px;
+    height: 610px;
+    background-image: url('../uploads/fresh_left.png');
+}
+
+.foods .bd .right {
+    float: right;
+    width: 1000px;
+    height: 610px;
+}
+
+.foods .bd .right li {
+    float: left;
+    padding: 8px 28px 17px;
+    width: 242px;
+    height: 304px;
+    margin-left: 8px;
+}
+
+
+.foods .bd .right li a {
+
+}
+
+.foods .bd .right li a img {
+    display: block;
+    width: 184px;
+    height: 184px;
+    margin-bottom: 10px;
+}
+
+.foods .bd .right li a .intro {
+    font-family: PingFangSC-Regular;
+    line-height: 16px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.foods .bd .right li a .price {
+    font-family: PingFangSC-Medium;
+    line-height: 22px;
+    font-size: 22px;
+    color: #9a2e1f;
+}
+
+.foods .bd .right li a .price span {
+    font-size: 17px;
+}
