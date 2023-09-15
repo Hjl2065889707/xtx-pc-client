@@ -1,0 +1,105 @@
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .content {
+    position: relative;
+    height: 500px;
+    background-color: pink;
+}
+
+.banner .content .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 251px;
+    height: 500px;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.banner .content .left li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.banner .content .left li:hover {
+    background-color: #27ba9b;
+}
+
+.banner .content .left li a {
+    display: block;
+    position: relative;
+    padding-left: 36px;
+    padding-right: 19px;
+    color: white;
+    font-size: 16px;
+}
+
+.banner .content .left li a span {
+    margin-left: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.banner .content .left li a::after {
+    position: absolute;
+    content: " ";
+    right: 19px;
+    top: 19px;
+    width: 6px;
+    height: 11px;
+    background-image: url('../images/sprites.png');
+    background-position: -80px -110px;
+}
+
+.banner .content .bg-img {
+
+}
+
+.banner .content .prev,
+.banner .content .next {
+    position: absolute;
+    top: 228px;
+    width: 45px;
+    height: 45px;
+    background-color: #000000;
+    opacity: 0.2;
+    border-radius: 23px;
+    background-image: url('../images/sprites.png');
+}
+
+.banner .content .prev {
+    left: 260px;
+    background-position: 14px -59px;
+}
+
+.banner .content .next {
+    right: 10px;
+    background-position: -22px -59px;
+
+}
+
+.banner .content ol {
+    position: absolute;
+    top: 460px;
+    left: 680px;
+}
+
+.banner .content ol li {
+    float: left;
+    margin-right: 15px;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    opacity: 0.43;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner .content ol .current {
+    opacity: 1;
+}
+
+

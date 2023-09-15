@@ -137,3 +137,80 @@
     text-align: center;
     color: #ffffff;
 }
+
+
+
+
+
+
+.footer {
+    overflow: hidden;
+    height: 343px;
+    background-color: #333333;
+}
+
+.footer .feature {
+    margin: 60px auto 54px;
+    width: 1170px;
+    height: 58px;
+}
+
+.footer .feature .content {
+    margin-right: 300px;
+    display: inline-block;
+    width: 186px;
+    height: 58px;
+    line-height: 58px;
+}
+.footer .feature .content:last-child {
+    margin-right: 0;
+}
+
+.footer .feature .font {
+    float: left;
+    line-height: 58px;
+    font-size: 28px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.footer .feature .img {
+    float: left;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+}
+
+.footer .feature .price {
+    background-image: url('../images/sprites.png');
+    background-position: 0px 0;
+}
+
+.footer .feature .speed {
+    background-image: url('../images/sprites.png');
+    background-position: -65px 0;
+}
+
+.footer .feature .quality {
+    background-image: url('../images/sprites.png');
+    background-position: -130px 0;
+}
+
+.footer .middle_line {
+    width: 1393px;
+    height: 3px;
+    margin-bottom: 41px;
+    background-color: #434343;
+}
+
+.footer .copy-right {
+    text-align: center;
+    margin: 0 auto 20px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.footer .copy-right a {
+    color: #999999;
+}
+
